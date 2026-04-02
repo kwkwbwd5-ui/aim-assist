@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.vladmarica.betterpingdisplay.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "PlayerListHudInvoker",
+    "PlayerListHudMixin",
+    "KeyboardMixin",
+    "MouseMixin",
+    "PlayerEntityMixin",
+    "MinecraftClientMixin",
+    "ExpandHitboxMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
